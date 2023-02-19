@@ -13,7 +13,7 @@ This Project is meant to perform analysis and manipulate Compressed FASTQ format
 
 # Installation instructions:
 
-1 - clone the repo on your local machine using ```git clone https://github.com/MohammedYasserr/sangerTask.git ``` and then create a python virtual environment using the following command ``` py -m venv env ``` for windows and ``` python3 -m venv env ``` for Unix/macOs, and finally activate it by the following command ``` cd/env/Scripts/activate``` 
+1 - clone the repo on your local machine using ```git clone https://github.com/MohammedYasserr/sangerTask.git ``` and then create a python virtual environment using the following command ``` py -m venv env ``` for windows and ``` python3 -m venv env ``` for Unix/macOs, and finally activate it by the following command ``` source env/Scripts/activate``` 
 
 2 - You can fine the test.fastq.gz in data folder ( This folder is the path to your data files ), you can also replace the test.fastq.gz file in the folder.
 
@@ -26,3 +26,9 @@ This Project is meant to perform analysis and manipulate Compressed FASTQ format
 2 - You can also run the project by building the docker image by using the following command ```docker build -t fastq-python ``` then run the following command ``` docker run fastq-python ```, you can find the repo for the image on my dockerhub and pull it using the following command ``` docker pull 2981998/fastq-python:latest ```
 
 3 - If you are using unix or linux, I added the ``` #!user/bin/env python3 ```  line at the top of the script and this shebang to make the script excutable on unix-like operating systems.
+
+4 - To excute the script from your linux/unix system follow the instructions : First you need to navigate to the project directory from your termial then hit the following command ``` chmod +x main.py }``` and finally hit the following command ``` ./main.py```
+
+# license : 
+
+MIT License
