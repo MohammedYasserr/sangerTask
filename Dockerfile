@@ -4,7 +4,6 @@ WORKDIR /app
 
 COPY requirements.txt requirements.txt
 
-
 RUN pip freeze > requirements.txt
 
 ADD . .
