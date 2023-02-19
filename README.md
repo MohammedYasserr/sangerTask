@@ -21,7 +21,7 @@ This Project is meant to perform analysis and manipulate Compressed FASTQ format
 
 # How to run the project ? 
 
-1- If you are using windows operating system, simply clone the repo, create a virtual environment and run from your integrated terminal or any other terminal (after navigating to the project directory" the following command python main.py. 
+1- If you are using windows operating system, 1 - clone the repo on your local machine using ```git clone https://github.com/MohammedYasserr/sangerTask.git ``` and then create a python virtual environment using the following command ``` py -m venv env ``` for windows and ``` python3 -m venv env ``` for Unix/macOs, and finally activate it by the following command ``` source env/Scripts/activate``` 
 
 2 - You can also run the project by building the docker image by using the following command ```docker build -t fastq-python ``` then run the following command ``` docker run fastq-python ```, you can find the repo for the image on my dockerhub and pull it using the following command ``` docker pull 2981998/fastq-python:latest ```
 
@@ -38,3 +38,7 @@ MIT License
 Email : bmbmyasser@gmail.com
 
 Linkedin profile : https://www.linkedin.com/in/mohammed-yasser-3700541a4/ 
+
+#Further improvement currently working on : 
+
+- I added automation to this project through github actions by addning ```release-fastq-python.yml ``` at the ```.github``` folder, this pipeline will enable me to publish the software as PyPi package as well as leverging the CI/CD utilities.
