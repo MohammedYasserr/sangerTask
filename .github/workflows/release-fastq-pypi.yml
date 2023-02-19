@@ -12,7 +12,8 @@ on:
   push:
     tags:
       - "v*"
-  workflow_dispatch: Run workflow
+  workflow_dispatch: 
+  
 jobs:
   build-n-publish:
     name: Build and publish to PyPI
