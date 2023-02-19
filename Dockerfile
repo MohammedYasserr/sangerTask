@@ -1,7 +1,12 @@
 FROM python:3.9
 
-ADD . . 
+WORKDIR /app
+
+COPY requirements.txt requirements.txt
+
 
 RUN pip freeze > requirements.txt
+
+ADD . .
 
 CMD ["python",  "./main.py"]
