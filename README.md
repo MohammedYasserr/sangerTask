@@ -39,6 +39,6 @@ Email : bmbmyasser@gmail.com
 
 Linkedin profile : https://www.linkedin.com/in/mohammed-yasser-3700541a4/ 
 
-#Further improvement currently working on : 
+# Further improvement currently working on : 
 
 - I added automation to this project through github actions by addning ```release-fastq-python.yml ``` at the ```.github``` folder, this pipeline will enable me to publish the software as PyPi package as well as leverging the CI/CD utilities.
