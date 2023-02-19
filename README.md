@@ -1,7 +1,8 @@
 # sangerTask
 Software Engineer Sanger Task
 
-This Project is meant to perform analysis and manipulate Compressed FASTQ format files using python scripts that can run on unix and linux operating systems.
+This Project is meant to perform analysis and manipulate Compressed FASTQ format files using python scripts that can run on unix and linux operating systems. It enbales the user to operate on compressed fastq files (ex: test.fastq.gz) and get how many sequences (reads) on the file plus how many bases(nucleotides) in the file.
+It's compatible with Windows/Linux/Unix/macOs operating systems. Dockerized and the image can be pulled by hitting the following command ``` docker pull 2981998/fastq-python:latest ``` 
 
 # Dependencies and requirements : 
 
