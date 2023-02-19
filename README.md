@@ -29,7 +29,8 @@ This Project is meant to perform analysis and manipulate Compressed FASTQ format
 
 4 - To excute the script from your linux/unix system follow the instructions : First you need to navigate to the project directory from your termial then hit the following command ``` chmod +x main.py ``` and finally hit the following command ``` ./main.py```
 
-# To contribute to the project and you don't have access to it, I strongly recommend you to refer to this documentation from github.com that outlines the steps to do so. The documentation can be found at https://docs.github.com/en/get-started/quickstart/contributing-to-projects 
+# To contribute to the project : 
+- You want to contribute to the project and you don't have access to it, I strongly recommend you to refer to this documentation from github.com that outlines the steps to do so. The documentation can be found at https://docs.github.com/en/get-started/quickstart/contributing-to-projects 
 
 # license : 
 
