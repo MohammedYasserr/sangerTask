@@ -32,3 +32,8 @@ This Project is meant to perform analysis and manipulate Compressed FASTQ format
 # license : 
 
 MIT License
+
+# Contact : 
+
+Email : bmbmyasser@gmail.com
+Linkedin profile : https://www.linkedin.com/in/mohammed-yasser-3700541a4/ 
