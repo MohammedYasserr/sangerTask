@@ -3,7 +3,7 @@ Software Engineer Sanger Task
 
 This Project is meant to perform analysis and manipulate Compressed FASTQ format files using python scripts that can run on unix and linux operating systems.
 
-# Dependencies : 
+# Dependencies and requirements : 
 
 1 - Python version 3.9 
 
