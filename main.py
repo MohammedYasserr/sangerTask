@@ -1,4 +1,4 @@
-print("Hello Sanger")
+print("Hello, Sanger!")
 
 import gzip
 
@@ -29,3 +29,6 @@ def get_nucleotides_count():
 
 
 get_nucleotides_count()
+
+
+print("See you, Sanger!")
