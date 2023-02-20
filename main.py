@@ -14,7 +14,7 @@ def get_seq_count():
             sequences +=1
             next(sequence)
             next(sequence)
-    print(sequences)
+    print("The sequences count is : "sequences)
 
 get_seq_count()
 
@@ -28,7 +28,7 @@ def get_nucleotides_count():
             bases += len(seq.strip())
             next(read)
             next(read)
-    print(bases)
+    print("The nucleotides count is :"bases)
 
 
 get_nucleotides_count()
