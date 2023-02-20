@@ -28,7 +28,9 @@ It's compatible with Windows/Linux/Unix/macOs operating systems. Dockerized and 
 
 3 - If you are using unix or linux, I added the ``` #!user/bin/env python3 ```  line at the top of the script and this shebang to make the script excutable on unix-like operating systems.
 
-4 - To excute the script from your linux/unix system follow the instructions : First you need to navigate to the project directory from your termial then hit the following command ``` chmod +x main.py ``` and finally hit the following command ``` ./main.py```
+4 - To excute the script from your linux/unix system follow the instructions : First you need to navigate to the project directory from your termial then hit the following command ``` chmod +x main.py ``` and finally hit the following command ``` ./main.py``` 
+
+5 - Finally a video tutorial can be found here https://www.youtube.com/watch?v=IQn0WsaIe64 
 
 # To contribute to the project : 
 - You want to contribute to the project and you don't have access to it, I strongly recommend you to refer to this documentation from github.com that outlines the steps to do so. The documentation can be found at https://docs.github.com/en/get-started/quickstart/contributing-to-projects 
