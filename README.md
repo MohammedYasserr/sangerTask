@@ -18,7 +18,7 @@ It's compatible with Windows/Linux/Unix/macOs operating systems. Dockerized and 
 
 2 - You can fine the test.fastq.gz in data folder ( This folder is the path to your data files ), you can also replace the test.fastq.gz file in the folder.
 
-3 - you can simply run from your integrated terminal or any other terminal (after navigating to the project folder) the command " python main.py"
+3 - you can simply run from your integrated terminal or any other terminal (after navigating to the project folder) the command ```python main.py```
 
 # How to run the project ? 
 
